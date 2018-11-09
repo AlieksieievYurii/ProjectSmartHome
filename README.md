@@ -34,7 +34,7 @@ json object element. In this json file is number of pin and status HIGH/LOW or V
 GET post every 1 second for getting HashSum. HashSum is from json file ActionsByDevices. If after getting HashSum it differs from
 HashSum in App, App will do GET request to server for getting json file actions of all pins.
 The App is with dynamic user interface. Users can add dinamicaly Views(Buttons,SeekBars) and configurate it. For instance,
-User wants to connect a lamp to pin 22. He have to connect it to 22 pin by relay. Next he have to add view Button and configurate:
+User wants to connect a lamp to pin 22. He have to connect it to 22 pin by relay. Next he have to add Button/SeekBar and configurate:
 pin, id, icons, name in app. Also he can see example json object for TCDO. Users can remove or edit views.
 
  
